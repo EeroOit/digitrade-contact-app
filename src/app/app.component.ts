@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'contact-webapp';
+  title = 'Komponentin otisikko on tässä!';
+message = '';
+
+onButtonClick() {
+  console.log('moikka');
+  this.message = 'heippa';
+
+}
 }
